@@ -4,6 +4,8 @@ html{
   background-repeat:no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+  text-shadow: 2px 2px 2px #000;
+
 }
 
 .blurred-bg{
@@ -13,33 +15,50 @@ html{
 }
 
 .w3-panel{
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.summary{
+  display: table;
+  padding-bottom: 20px;
+}
+
+.summary p{
+  display: table-cell;
+  vertical-align: middle;
 
 }
 
-#profile{
-  width:250px;
-  height:250px;
-  float: left;
-  margin-left:2%;
-  margin-right:2%;
+.summary img{
+  width:400px;
+  height:400px;
+  padding:2%;
+  display: table-cell;
+  vertical-align: middle;
 }
+
 
 h1{
   font-family: sans-serif;
   text-align: center;
   font-size: 50px;
+  color:white;
 }
 
 h2{
   font-size: 40px;
+  text-align: center;
+  color:white;
+}
+
+h3{
+  color:white;
 }
 
 p{
   font-size: 18px;
-  width:100%;
-  height:auto;
   padding:1%;
-
+  color:white;
+  line-height: 50px;
 }
