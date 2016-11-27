@@ -3,14 +3,17 @@
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link href="css/style.css?v=1.1" rel="stylesheet">
 <head>
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 <title>Kyle Polley</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
 <body>
+
 <!--Creates Card-->
-<div class="w3-panel w3-card-4 blurred-bg" data-0="opacity:1;" data-250="opacity:0;">
+<div id="summary" class="w3-panel w3-card-4 blurred-bg" data-0="opacity:1;" data-250="opacity:0;">
+
 <h1>Kyle Polley</h1>
 
 <!--Personal Summary-->
@@ -24,13 +27,15 @@
 </div>
 
 <!--Education-->
-<div class="w3-panel w3-card-4 blurred-bg" data-0="opacity:0" data-250="opacity:0;" data-500="opacity:1;" data-750="opacity:0;">
+<div id="education" class="w3-panel w3-card-4 blurred-bg" data-0="opacity:0" data-250="opacity:0;" data-500="opacity:1;" data-1000="opacity:1;" data-1250="opacity:0;">
+
+
   <h2>Education</h2>
   <p>Curently a student at the University of California: Davis<br>In the process of recieving a BS in Computer Science and a minor in Managerial Economics</p>
 </div>
 
 <!--Experience-->
-<div class="w3-panel w3-card-4 blurred-bg" data-0="opacity:0" data-750="opacity:0;" data-1000="opacity:1;" data-1250="opacity:0;">
+<div id="experience" class="w3-panel w3-card-4 blurred-bg" data-0="opacity:0" data-1250="opacity:0;" data-1500="opacity:1;" data-2000="opacity:1;" data-2250="opacity:0;">
   <h2>Experience</h2>
   <h3><b>IT SECURITY and OPERATIONS RESEARCHER ~ NASA AMES ~ 6/16 - PRESENT</b></h3>
   <p>Working on various operations and research projects in areas such as computer networking, cloud computing, and information technology security.
@@ -45,12 +50,13 @@ Both Android and iOS applications run natively using Java and Swift programming 
 
 </div>
 <!--Personal Projects ADD MORE-->
-<div class="w3-panel w3-card-4 blurred-bg" data-0="opacity:0" data-1250:"opacity:0;" data-1000="opacity:0;" data-1250="opacity:1;">
-
+<div id="projects" class="w3-panel w3-card-4 blurred-bg" data-0="opacity:0" data-2250="opacity:0;" data-2500="opacity:1;" data-3000="opacity:1;" data-3250="opacity:0;">
   <h2>Projects</h2>
   <p>NEW PRODUCT CREATION ~ PERSONAL PROJECT ~ 9/12 - PRESENT Collaborating on the development, prototyping, funding and marketing of a new consumer household product. Created the design, prototyping, and testing of beta versions of the product and packaging design and testing. Working to develop website and crowd-funding proposal to support marketing and ongoing product production.</p>
 
 </div>
+
+      <script type="text/javascript" src="js/center.js"></script>
 
   <script type="text/javascript" src="js/skrollr.min.js"></script>
      <script type="text/javascript">

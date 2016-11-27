@@ -17,7 +17,8 @@ html{
 
 .w3-panel{
   position: fixed;
-  margin-left: 150px;
+  width:75%;
+  margin-left: 50px;
   margin-right: 150px;
 }
 
