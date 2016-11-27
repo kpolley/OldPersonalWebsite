@@ -1,3 +1,5 @@
+$("#summary").fadeIn(300);
+
 $(window).resize(function(){
 
 	$('#summary').css({
@@ -28,3 +30,10 @@ $(window).resize(function(){
 
 // To initially run the function:
 $(window).resize();
+
+$(document).ready(function(){
+  $('.w3-panel').hide();
+  setTimeout(function() {
+    $(".w3-panel").fadeIn(1000);
+}, 500);
+});
