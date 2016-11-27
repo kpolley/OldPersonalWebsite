@@ -9,13 +9,14 @@ html{
 }
 
 .blurred-bg{
-  background-image: url(../src/codeblur.png); 
+
+  background-image: url(../src/codeblur.png);
   background-size: cover;
   background-attachment: fixed;
 }
 
-
 .w3-panel{
+  position: fixed;
   margin-left: 150px;
   margin-right: 150px;
 }
