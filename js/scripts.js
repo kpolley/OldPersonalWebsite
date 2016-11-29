@@ -1,5 +1,3 @@
-$("#summary").fadeIn(300);
-
 $(window).resize(function(){
 
 	$('#summary').css({
