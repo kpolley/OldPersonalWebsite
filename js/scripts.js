@@ -41,15 +41,6 @@ $(document).ready(function(){
 }, 500);
 });
 
-
-$(window).scroll(function() {
-    if ($(this).scrollTop()) {
-        $('#toTop').fadeIn();
-    } else {
-        $('#toTop').fadeOut();
-    }
-});
-
 $('#toTop').click(function () {
    //1 second of animation time
    //html works for FFX but not Chrome
