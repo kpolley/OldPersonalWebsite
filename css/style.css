@@ -17,6 +17,7 @@ html{
 .w3-panel{
   position: absolute;
   width:75%;
+  height: auto;
   margin-left: 50px;
   margin-right: 150px;
 }
@@ -36,7 +37,8 @@ html{
 .w3-panel img{
   display: inline-table;
   vertical-align: middle;
-  height:400px;
+  margin-bottom: 20px;
+  height:200px;
 }
 
 
