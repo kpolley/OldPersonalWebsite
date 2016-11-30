@@ -24,6 +24,11 @@ $(window).resize(function(){
 		top: ($(window).height() - $('#projects').outerHeight())/2
 	});
 
+	$('.buttons').css({
+		prosition:'fixed',
+		left: ($(window).width() - $('.buttons').width())/2,
+	});
+
 });
 
 // To initially run the function:
@@ -34,4 +39,21 @@ $(document).ready(function(){
   setTimeout(function() {
     $(".w3-panel").fadeIn(1000);
 }, 500);
+});
+
+
+$(window).scroll(function() {
+    if ($(this).scrollTop()) {
+        $('#toTop').fadeIn();
+    } else {
+        $('#toTop').fadeOut();
+    }
+});
+
+$('#toTop').click(function () {
+   //1 second of animation time
+   //html works for FFX but not Chrome
+   //body works for Chrome but not FFX
+   //This strange selector seems to work universally
+   $("html, body").animate({scrollTop: 0}, 1000);
 });
