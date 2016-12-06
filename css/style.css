@@ -16,27 +16,9 @@ html{
 
 .w3-panel{
   position: absolute;
-  width:75%;
-  height: auto;
-}
-
-.w3-panel > div {
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  vertical-align: center;
-}
-
-
-.w3-panel p {
-  padding: 20px;
-}
-
-.w3-panel img{
-  display: inline-table;
-  vertical-align: middle;
-  margin-bottom: 20px;
-  height:200px;
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .buttons{
@@ -55,6 +37,12 @@ html{
   border: solid #ffffff 2px;
 }
 
+.icons{
+  height:50px;
+  padding-right: 15px;
+  clear: none;
+
+}
 
 h1{
   font-family: sans-serif;
@@ -71,9 +59,10 @@ h2{
 
 h3{
   color:white;
+  text-align: center;
 }
 
-p{
+p, ul{
   font-size: 18px;
   color:white;
   line-height: 50px;
