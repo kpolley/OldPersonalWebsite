@@ -16,7 +16,7 @@ html{
 
 .w3-panel{
   position: absolute;
-  width: 50%;
+  width: 1000px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -28,6 +28,13 @@ html{
   bottom: 0px;
 }
 
+.icons{
+  height:50px;
+  padding-right: 15px;
+  clear: none;
+
+}
+
 #toTop {
   margin-bottom: 20px;
   height: 50px;
@@ -35,13 +42,6 @@ html{
   color: #ffffff;
   font-size: 20px;
   border: solid #ffffff 2px;
-}
-
-.icons{
-  height:50px;
-  padding-right: 15px;
-  clear: none;
-
 }
 
 h1{
