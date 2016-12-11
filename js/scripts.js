@@ -24,6 +24,18 @@ $(window).resize(function(){
 		top: ($(window).height() - $('#projects').outerHeight())/2
 	});
 
+	$('#knowledge').css({
+		position:'fixed',
+		left: ($(window).width() - $('#knowledge').outerWidth())/2,
+		top: ($(window).height() - $('#knowledge').outerHeight())/2
+	});
+
+	$('.codeicon').css({
+		position:'fixed',
+		left: ($(window).width() - $('.codeicon').outerWidth())/2,
+		top: ($(window).height() - $('.codeicon').outerHeight())/2
+	});
+
 	$('.buttons').css({
 		prosition:'fixed',
 		left: ($(window).width() - $('.buttons').width())/2,
