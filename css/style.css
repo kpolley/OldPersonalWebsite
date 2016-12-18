@@ -8,6 +8,7 @@ html{
 }
 
 .blurred-bg{
+  
   background-image: url(../src/codeblur.png);
   background-size: cover;
   background-attachment: fixed;
