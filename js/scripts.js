@@ -18,10 +18,16 @@ $(window).resize(function(){
 		top: ($(window).height() - $('#experience').outerHeight())/2
 	});
 
-	$('#experience1').css({
+	$('.experiences').css({
 
-		left: ($(window).width() - $('#experience1').outerWidth())/2,
-		top: ($(window).height() - $('#experience1').outerHeight())/2
+		left: ($(window).width() - $('.experiences').outerWidth())/2,
+		top: ($(window).height() - $('.experiences').outerHeight())/2
+	});
+
+	$('#experience2').css({
+
+		left: ($(window).width() - $('#experience2').outerWidth())/2,
+		top: ($(window).height() - $('#experience2').outerHeight())/2
 	});
 
 	$('#projects').css({
